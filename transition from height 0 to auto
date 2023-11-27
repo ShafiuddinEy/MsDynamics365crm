@@ -1,0 +1,54 @@
+<div class="mainheading">
+ <style>
+/****** colors/typography ******/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.mainheading {
+  max-width: 800px;
+  background-color: black;
+
+  font-family: system-ui;
+  color: white;
+
+  border-bottom: 5px solid limegreen;
+  cursor: pointer;
+}
+
+.mainheading-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.mainheading-body {
+  padding-inline: 1rem;
+}
+
+/**********************************/
+
+/***** 1) height: not working *****/
+
+.mainheading-body {
+  height: 0;
+  transition: 500ms height ease;
+}
+
+.mainheading:hover .mainheading-body {
+  height: auto;
+}
+    </style>
+  <div class="mainheading-title">Mohammed Shafiuddin!</div>
+  <div class="mainheading-body">
+    <div>
+      <p>My journey in the tech industry has been centred around a relentless pursuit of knowledge. I've actively engaged in continuous learning, leveraging various platforms to enhance my skills within the Microsoft ecosystem. Through this journey, I've prioritized sharing my knowledge with others, recognizing the value of collective growth.
+Looking ahead, my aspiration is to achieve the esteemed recognition of becoming a Microsoft MVP. To reach this milestone, I'm dedicated to consistently updating myself to align with the evolving landscape of technology. This involves staying attuned to market changes, embracing new tools and methodologies, and remaining deeply engaged in the Microsoft community. Through this commitment, I aim to contribute significantly while continually honing my expertise in this dynamic field.
+</p>
+    </div>
+  </div>
+</div>
+
+  
